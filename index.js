@@ -49,6 +49,9 @@ exports.decorateConfig = (config) => {
       .header_header {
         background: rgba(34, 45, 50, 0.5) !important;
       }
+      .tab_tab {
+        color: hsl(0, 0%, 77%);
+      }
       .hyperterm_main, .tab_tab, .tab_text {
         border: none !important;
         padding: 0 !important;
