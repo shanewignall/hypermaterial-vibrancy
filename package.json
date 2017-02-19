@@ -1,10 +1,10 @@
 {
-  "name": "hyper-material-vibrancy",
-  "version": "0.2.0",
+  "name": "hypermaterial-vibrancy",
+  "version": "0.0.1",
   "description": "A material theme for Hyper.app",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dotcypress/hyper-material-vibrancy"
+    "url" : "https://github.com/danielheyman/hyper-material-vibrancy"
   },
   "main": "index.js",
   "keywords": [
@@ -12,7 +12,8 @@
     "hyper",
     "hyper.app",
     "material"
+    "theme"
   ],
-  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "author": "Daniel Heyman <daniel.heyman@gmail.com>",
   "license": "MIT"
 }
