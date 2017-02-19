@@ -3,7 +3,7 @@ exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor: '#eceff1',
-    backgroundColor: 'rgba(38, 50, 56, 0.8)',
+    backgroundColor: `rgba(38, 50, 56, ${ config.backgroundOpacity || '0.8' })`,
     borderColor: 'transparent',
     cursorColor: '#68b6f3',
     colors: {

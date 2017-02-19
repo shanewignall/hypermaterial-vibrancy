@@ -10,14 +10,21 @@ Add `hyper-material-vibrancy` to your plugins list in `~/.hyperterm.js`:
 
 ```js
 plugins: [
-  // a list of plugins to fetch and install from npm
-  // format: [@org/]project[#version]
-  // examples:
-  //   `hyperpower`
-  //   `@company/project`
-  //   `project#1.0.1`
   plugins: [
-    'hyper-material-vibrancy'
+    'hypermaterial-vibrancy'
   ]
 ]
 ```
+
+## Configuration
+Add these options to `~/.hyper.js` to configure.
+
+```js
+// OPTIONS: From 0.1 to 1
+// DEFAULT: 0.8
+backgroundOpacity: '1',
+```
+
+## License
+
+MIT
