@@ -1,28 +1,29 @@
-exports.onWindow = browserWindow => browserWindow.setVibrancy('ultra-dark');
+exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
+
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor: '#eceff1',
-    backgroundColor: 'rgba(38, 50, 56, 0.9)',
+    backgroundColor: 'rgba(38, 50, 56, 0.8)',
     borderColor: 'transparent',
     cursorColor: '#68b6f3',
-    colors: [
-      '#263238',
-      '#ff5252',
-      '#9ccc65',
-      '#fee94e',
-      '#2b98f0',
-      '#b38bfc',
-      '#68b6f3',
-      '#eceff1',
-      '#617d8a',
-      '#fc625d',
-      '#9ccc65',
-      '#fee94e',
-      '#2b98f0',
-      '#b38bfc',
-      '#68b6f3',
-      '#ffffff'
-    ],
+    colors: {
+      black: '#263238',
+      red: '#FF5252',
+      green: '#9CCC65',
+      yellow: '#fee94e',
+      blue: '#2b98f0',
+      magenta: '#b38bfc',
+      cyan: '#68b6f3',
+      white: '#ECEFF1',
+      lightBlack: '#617d8a',
+      lightRed: '#fc625d',
+      lightGreen: '#9CCC65',
+      lightYellow: '#fee94e',
+      lightBlue: '#2b98f0',
+      lightMagenta: '#b38bfc',
+      lightCyan: '#68b6f3',
+      lightWhite: '#ffffff'
+    },
     termCSS: `
       ${config.termCSS || ''}
       @keyframes blink-animation {
