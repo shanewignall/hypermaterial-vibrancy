@@ -9,11 +9,9 @@ Material theme for [Hyper](https://hyper.is).
 Add `hypermaterial-vibrancy` to your plugins list in `~/.hyperterm.js`:
 
 ```js
-plugins: [
   plugins: [
     'hypermaterial-vibrancy'
   ]
-]
 ```
 
 ## Configuration
